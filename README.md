@@ -19,15 +19,17 @@ This project is written in C and requires the following:
 
 ## Usage
 When compiling your code, use the following command by replacing `<size>` with your desired buffer size:
-    ```bash
-    gcc -Wall -Werror -Wextra -D BUFFER_SIZE=<size> get_next_line.c get_next_line_utils.c
-    ```
+
+```bash
+gcc -Wall -Werror -Wextra -D BUFFER_SIZE=<size> get_next_line.c get_next_line_utils.c
+```
 
 ## Testing
 
 To test the implementation, simply uncomment the main function and relevant headers within the `get_next_line.c` file. Feel free to edit the test.txt file to include different content for testing various cases.
 
 To compile and run the program, use the command below (change "xx" to your desired buffer size):
-    ```bash
-    gcc -Wall -Werror -Wextra -D BUFFER_SIZE=<size> get_next_line.c get_next_line_utils.c && ./a.out
-    ```
+
+```bash
+gcc -Wall -Werror -Wextra -D BUFFER_SIZE=<size> get_next_line.c get_next_line_utils.c && ./a.out
+```
